@@ -4,18 +4,24 @@ body {
   padding: 0px;
 }
 .page {
-  background: url('/images/anonymous-server-background.jpg');
+  background-image: url('/images/anonymous-server-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+@media all and (min-width:500px) {
+  
 }
 
 
 
-
 /* HEADER */
-.page__header {}
+.page__header {
+
+}
 .nav-trigger {
   background: url('/images/ico-menu.svg');
   background-position: center;
@@ -26,6 +32,9 @@ body {
   box-sizing: content-box;
   padding: 20px 10px;
   border-radius: 5px ;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 
@@ -33,7 +42,9 @@ body {
 
 /* MENU */
 .nav {}
-.nav__items {}
+.nav__items {
+  margin: 0px;
+}
 .nav__item {}
 .nav__link {}
 .nav-close {}
@@ -44,7 +55,13 @@ body {
 /* MAIN */
 .page__main {}
 .page__wrapper {}
-.page__main-title {}
+.page__main-title {
+  color: white;
+  width: 40px;
+  font-family: 'Roboto Slab';
+  font-size: 60px;
+  text-transform: uppercase;
+}
 
 
 
