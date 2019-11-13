@@ -4,7 +4,6 @@
  const nav= document.querySelector('.nav');
  const closeBtn = document.querySelector('.nav-close');
 
- console.log('holaaa')
 
 function openNavMenu() {
   nav.classList.add('nav-open')
