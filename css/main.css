@@ -41,13 +41,35 @@ body {
 
 
 /* MENU */
-.nav {}
+.nav {
+  display: none;
+}
+.nav-open{
+  display: block;
+  z-index: 1;
+}
 .nav__items {
   margin: 0px;
 }
-.nav__item {}
+.nav__item {
+  list-style: none;
+}
 .nav__link {}
-.nav-close {}
+.nav-close {
+  background: url('/images/ico-close.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  border: none;
+  color: transparent;
+  box-sizing: content-box;
+  padding: 20px 10px;
+  border-radius: 5px ;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 
 
 
@@ -61,6 +83,7 @@ body {
   font-family: 'Roboto Slab';
   font-size: 60px;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 
