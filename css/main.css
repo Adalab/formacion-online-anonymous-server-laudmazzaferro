@@ -6,7 +6,7 @@ body {
   position: relative;
 }
 .page {
-  background-image: url('./images/anonymous-server-background.jpg') ;
+  background-image: url('../images/anonymous-server-background.jpg') ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 
 }
 .nav-trigger {
-  background: url('./images/ico-menu.svg');
+  background: url('../images/ico-menu.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
@@ -79,7 +79,7 @@ body {
   font-size: 40px;
 }
 .nav-close {
-  background: url('./images/ico-close.svg');
+  background: url('../images/ico-close.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
